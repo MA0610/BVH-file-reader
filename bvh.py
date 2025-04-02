@@ -416,9 +416,10 @@ class BVH:
 
 
 
-    def outputJointValues(self, frameNum, idx):  #IN PROGRESS
+    def outputJointValues(self, frameNum, idx):  
     
-
+        #The frameNum refers to the "row" at the bottom in the MOTION section
+        #The idx value refers to the "column" at the bottom in the MOTION section
         
         return self.frames[frameNum][idx]
     
