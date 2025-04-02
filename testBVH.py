@@ -13,7 +13,7 @@ animation.load("T1.bvh") #change to bvh file name
 BVHAnimator(animation)
 
 
-print(animation.outputJointValues(1,2))
+print(animation.outputJointValues(1,2))  #First parameter refers to row/frameNum, second parameter refers to column/value within the frame
 
 
 
